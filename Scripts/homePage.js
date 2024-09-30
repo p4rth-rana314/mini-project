@@ -1,10 +1,10 @@
-import { event } from "./data/EventTemplates.js";
+import { Events } from "./data/EventTemplates.js";
 
-let main = document.querySelector('.main');
+let main = document.querySelector(".main");
 
-let mainHTML = '';
+let mainHTML = "";
 
-event.forEach((eventTile) => {
+Events.forEach((eventTile) => {
   let html = `<div class="event">
                 <div class="tile">
                     ${eventTile.name}
@@ -13,7 +13,7 @@ event.forEach((eventTile) => {
               </div>`;
 
   mainHTML += html;
-})
+});
 
 main.innerHTML = mainHTML;
 console.log(mainHTML);
