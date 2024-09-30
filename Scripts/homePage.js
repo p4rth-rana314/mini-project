@@ -1,7 +1,6 @@
 import { Events } from "./data/EventTemplates.js";
 
 let main = document.querySelector(".main");
-
 let mainHTML = "";
 
 Events.forEach((eventTile) => {
@@ -16,4 +15,11 @@ Events.forEach((eventTile) => {
 });
 
 main.innerHTML = mainHTML;
-console.log(mainHTML);
+
+document.querySelectorAll(".event").forEach((event) => {
+  event.addEventListener("click", () => {
+    window.location.href = "UserEventPage.html";
+  });
+});
+
+//console.log(mainHTML);
