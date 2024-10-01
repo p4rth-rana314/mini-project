@@ -1,3 +1,2 @@
-import { eventName } from "./homePage.js";
 console.log("hello");
-console.log(eventName);
+console.log(localStorage.getItem('eventName'));
