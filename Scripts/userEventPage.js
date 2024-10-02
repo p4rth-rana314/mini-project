@@ -1,2 +1,1 @@
-console.log("hello");
-console.log(localStorage.getItem('eventName'));
+console.log(localStorage.getItem("eventName"));

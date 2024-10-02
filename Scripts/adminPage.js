@@ -15,10 +15,11 @@ function button1() {
     button2();
 
     document.querySelector(".add-button").addEventListener("click", () => {
+      let id = crypto.randomUUID();
       Events.push({
         name: document.querySelector(".name").value,
         date: document.querySelector(".event-date").value,
-        eventId: 6,
+        eventId: id,
       });
       localStorage.setItem("Events", JSON.stringify(Events)); //saves the newely added event and displays it on homepage
     });
