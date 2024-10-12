@@ -21,6 +21,7 @@ customButton.addEventListener("click", () => {
         name: name,
         date: date,
         eventId: crypto.randomUUID(), // Ensure unique event ID
+        description: document.querySelector(".description").value,
       });
       localStorage.setItem("Events", JSON.stringify(Events)); // Save the newly added event
       alert("Event added successfully!");
