@@ -17,6 +17,6 @@ generateCollegeList();
 
 document.querySelectorAll(".college").forEach((div) => {
   div.addEventListener("click", () => {
-    window.location.href = "../select.html";
+    window.location.href = "../HTML/select.html";
   });
 }); //this function says that if we click any of the college names, it will take us to next page
