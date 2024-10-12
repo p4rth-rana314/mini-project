@@ -16,7 +16,7 @@ Events.forEach((eventTile) => {
                 </div>
               </div>`;
 
-  if (eventTile.date >= currentDate) {
+  if (eventTile.date < currentDate) {
     mainHTML += html;
   }
 });

@@ -4,25 +4,25 @@ if (!Events) {
   Events = [
     {
       name: "Chess",
-      date: "01-01-2024",
+      date: "2024-10-13",
       eventId: 1,
       players: ["dishank.parmar", "zaisha.parmar"],
     },
     {
       name: "Carrom",
-      date: "02-01-2024",
+      date: "2024-10-12",
       eventId: 2,
       players: ["dishank.parmar", "zaisha.parmar"],
     },
     {
       name: "Table Tennis",
-      date: "03-01-2024",
+      date: "2024-10-11",
       eventId: 3,
       players: ["dishank.parmar", "zaisha.parmar"],
     },
     {
       name: "Football",
-      date: "04-01-2024",
+      date: "2024-10-12",
       eventId: 4,
       players: ["dishank.parmar", "zaisha.parmar"],
     },
