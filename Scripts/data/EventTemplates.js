@@ -26,17 +26,5 @@ if (!Events) {
       eventId: 4,
       players: ["dishank.parmar", "zaisha.parmar"],
     },
-    {
-      name: "Table Tennis",
-      date: "03-01-2024",
-      eventId: 3,
-      players: ["dishank.parmar", "zaisha.parmar"],
-    },
-    {
-      name: "Table Tennis",
-      date: "03-01-2024",
-      eventId: 4,
-      players: ["dishank.parmar", "zaisha.parmar"],
-    },
   ];
 }

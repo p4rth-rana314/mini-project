@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Admin Page</title>
+    <title>Active Page</title>
     <link rel="stylesheet" href="../../Styles/adminPage.css" />
   </head>
   <body>
     <div class="top-bar">
-      <button class="create-butt">Create</button>
-      <button class="register-butt">Registration</button>
-      <button class="active-butt">Active Events</button>
-      <button class="ended-butt">Ended Events</button>
+      <button
+        class="create-butt"
+        onclick="location.href='adminPage-create.html'"
+      >
+        Create
+      </button>
+      <button
+        class="register-butt"
+        onclick="location.href='adminPage-registered.html'"
+      >
+        Registration
+      </button>
+      <button
+        class="active-butt"
+        onclick="location.href='adminPage-active.html'"
+      >
+        Active Events
+      </button>
+      <button class="ended-butt" onclick="location.href='adminPage-ended.html'">
+        Ended Events
+      </button>
     </div>
     <div class="side-bar">
       <div>create events</div>
     </div>
     <div class="main-area">
-      <button class="custom-event-butt" onclick="location.href='customEvents.html'">Custom event</button>
+      <button
+        class="custom-event-butt"
+        onclick="location.href='customEvents.html'"
+      >
+        Custom event
+      </button>
       <button class="existing-template">Template-1</button>
       <button class="existing-template">Template-2</button>
     </div>
