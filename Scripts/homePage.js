@@ -1,7 +1,6 @@
 import { Events } from "./data/EventTemplates.js";
 import { save } from "./data/Temp.js";
 
-
 let main = document.querySelector(".main");
 let mainHTML = "";
 
@@ -20,10 +19,10 @@ main.innerHTML = mainHTML;
 
 document.querySelectorAll(".event").forEach((event) => {
   event.addEventListener("click", () => {
-    
     //eventName = event.dataset.eventname;
     save(event.dataset.eventname);
     console.log(event.dataset.eventname);
-    window.location.href = "UserEventPage.html";
+    window.open("./userEventPage.html");
+    //window.location.href = "UserEventPage.html";
   });
 });
