@@ -12,7 +12,7 @@ Events.forEach((eventTile) => {
                 <div class="about">
                   Hello!
                   <button class="delete-button" data-id="${eventTile.eventId}">Delete Event</button>
-                  <button>Modify</button>
+                  <button class="modify-button" data-id="${eventTile.eventId}">Modify</button>
                 </div>
               </div>`;
 
@@ -34,5 +34,14 @@ deleteButt.forEach((button) => {
         location.reload();
       }
     }
+  });
+});
+
+const modifyButt = document.querySelectorAll(".modify-button");
+
+modifyButt.forEach((button) => {
+  button.addEventListener("click", () => {
+    localStorage.setItem("modifyButtonId", button.dataset.id);
+    window.location.href = "../adminPageHTML/adminPage-registered-modify.html";
   });
 });

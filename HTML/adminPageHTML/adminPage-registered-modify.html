@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modify</title>
+    <link rel="stylesheet" href="../../Styles/adminPage-registered.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <button
+        class="create-butt"
+        onclick="location.href='adminPage-create.html'"
+      >
+        Create
+      </button>
+      <button
+        class="register-butt"
+        onclick="location.href='adminPage-registered.html'"
+      >
+        Registration
+      </button>
+      <button
+        class="active-butt"
+        onclick="location.href='adminPage-active.html'"
+      >
+        Active Events
+      </button>
+      <button class="ended-butt" onclick="location.href='adminPage-ended.html'">
+        Ended Events
+      </button>
+    </div>
+    <div class="side-bar"></div>
+    <div class="main-area">
+      <div>
+        Modify date: <input class="date" type="date" /><button
+          class="change-button"
+        >
+          change
+        </button>
+      </div>
+      <div>
+        Players Registered:
+        <div class="player-list"></div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="../../Scripts/adminPage-registered-modify.js"
+    ></script>
+  </body>
+</html>
