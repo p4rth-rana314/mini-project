@@ -1,3 +1,7 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .top-bar {
   background-color: #333;
   position: fixed;
@@ -12,8 +16,61 @@
   align-items: center;
 }
 
-.top-bar button {
-  height: 30px;
+.logo {
+  position: fixed;
+  left: 40px;
+  top: 10px;
+  height: 60px;
+  width: 100px;
+}
+
+.logo img {
+  min-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}
+
+.button-section {
+  position: fixed;
+  left: 200px;
+  height: 80px;
+  width: 60%;
+}
+
+.button-section button {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  width: 100px;
+  top: 40px;
+  border-style: none;
+  background-color: #656565;
+  color: white;
+  margin-right: -2px;
+}
+
+.button-section button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.profile {
+  position: fixed;
+  right: 40px;
+  top: 18px;
+  height: 60px;
+  width: 44px;
+  border-radius: 30px;
+}
+
+.profile img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.profile img:hover {
+  cursor: pointer;
 }
 
 .side-bar {

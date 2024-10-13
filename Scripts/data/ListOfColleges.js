@@ -1,15 +1,15 @@
-export let CollegeList = JSON.parse(localStorage.getItem('CollegeList'));
+export let CollegeList = JSON.parse(localStorage.getItem("CollegeList"));
 
-if(!CollegeList) {
+if (!CollegeList) {
   CollegeList = [
     {
-      name: 'KJSIT'
+      name: "KJSIT",
     },
     {
-      name: 'KJSsadsadIT'
+      name: "DJ Sanghvi",
     },
     {
-      name: 'KJdsgfdgSIT'
+      name: "VJIT",
     },
-  ]
+  ];
 }
