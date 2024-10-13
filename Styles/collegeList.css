@@ -1,6 +1,45 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 100px;
+  width: 550px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.college-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: blue;
+  width: 550px;
+  height: 500px;
+}
+
 .college {
   width: 100px;
   height: 100px;
   background-color: rgb(28, 136, 252);
-  margin-bottom: 20px;
 }
