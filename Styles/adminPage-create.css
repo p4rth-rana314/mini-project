@@ -83,68 +83,86 @@ body {
   padding: 20px 0;
 }
 
+.custom-butt {
+  border-style: none;
+  background-color: #575757;
+  height: 100px;
+  width: 150px;
+  margin: 20px 0px 0px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.custom-butt:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .main-area {
   position: relative;
   margin-left: 200px;
   margin-right: 0;
   top: 80px;
-  background-color: #fffff8;
+  background-color: #f4f4f4;
   padding: 20px;
   min-height: calc(100vh - 80px);
   overflow-x: hidden;
-  font-family: "Times New Roman", Times, serif;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media (max-width: 1500px) and (min-width: 900px) {
-  .main-area {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.main-area div {
+  margin-bottom: 15px;
 }
 
-@media (max-width: 900px) and (min-width: 500px) {
-  .main-area {
-    grid-template-columns: 1fr 1fr;
-  }
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-radius: 5px;
 }
 
-@media (max-width: 500px) {
-  .main-area {
-    grid-template-columns: 1fr;
-  }
-}
-
-.event {
-  display: flex;
-  height: 18vw;
-  width: 22vw;
-  background-color: rgb(115, 177, 230);
-  margin: 10px;
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  width: calc(100% - 20px);
   border: 1px solid #ccc;
-  margin: 20px;
-  border: 1px solid black;
-  border-radius: 40px;
-  position: relative;
+  border-radius: 5px;
 }
 
-.tile {
-  width: 12vw;
-  height: 13vw;
-  background-color: #3c93c9;
-  margin: 10px;
-  border: 1px solid #ccc;
-
-  margin: 20px;
-  border: 1px solid black;
-  border-radius: 20px;
+.add-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 20px;
+.add-button:hover {
+  background-color: #575757;
+}
+
+.name,
+.description,
+.event-date,
+.venue {
+  display: block;
+  width: 100%;
+}
+
+.description input {
+  width: calc(100% - 20px);
+}
+
+.intro {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
 }
