@@ -7,9 +7,9 @@ customButton.addEventListener("click", () => {
   main.innerHTML = `
       <div class="header">Custom Event</div>
       <div>Name: <input class="name" /></div>
-      <div class="description">Enter description of event: <input /></div>
+      <div class="description">Enter description of event: <input class="description" /></div>
       <div>Date of event: <input class="event-date" type="date" /></div>
-      <div class="venue">Venue: <input /></div>
+      <div class="venue">Venue: <input class ="venue" /></div>
       <button class="add-button">Add</button>`;
 
   document.querySelector(".add-button").addEventListener("click", () => {

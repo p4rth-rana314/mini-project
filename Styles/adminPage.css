@@ -48,6 +48,52 @@ body {
   color: white;
   margin-right: -2px;
 }
+.create-butt{
+  border-style: none;
+  background-color: #575757;
+  height: 100px;
+  width: 150px;
+  margin: 0px 5px 5px 0px;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+.register-butt{
+  border-style: none;
+  background-color: #575757;
+  height: 100px;
+  width: 150px;
+  margin: 0px 5px 5px 0px;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.active-butt{
+  border-style: none;
+  background-color: #575757;
+  height: 100px;
+  width: 150px;
+  margin: 0px 5px 5px 0px;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  
+}
+.ended-butt{
+  border-style: none;
+  background-color: #575757;
+  height: 100px;
+  width: 150px;
+  margin: 0px 5px 5px 0px;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
 
 .button-section button:hover {
   cursor: pointer;
