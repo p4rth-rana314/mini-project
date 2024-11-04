@@ -31,10 +31,11 @@ body {
 }
 
 .button-section {
-  position: fixed;
+  position: center;
   left: 200px;
   height: 80px;
   width: 60%;
+ padding-bottom: 20px;
 }
 
 .button-section button {
@@ -46,7 +47,8 @@ body {
   border-style: none;
   background-color: #656565;
   color: white;
-  margin-right: -2px;
+  margin-right: 2px;
+
 }
 .create-butt{
   border-style: none;
@@ -127,6 +129,7 @@ body {
   bottom: 0;
   width: 200px;
   padding: 20px 0;
+  
 }
 
 .main-area {

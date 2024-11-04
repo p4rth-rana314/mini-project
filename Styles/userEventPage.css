@@ -18,7 +18,7 @@ body {
 
 .modern-paragraph {
   font-size: 18px; /* Larger font size */
-  margin: 20px 0; /* Top and bottom margin */
+  margin: 15px 0; /* Top and bottom margin */
   padding: 15px; /* Inner padding for comfort */
   border-left: 5px solid #007bff; /* Accent color line on the left */
   background-color: #e9f5ff; /* Light blue background for the paragraph */
@@ -29,4 +29,17 @@ body {
 }
 h1{
   text-align: center;
+}
+button{
+ padding: 10px;
+ background-color: rgb(13, 194, 226);
+ border-radius: 10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ display: block;
+ margin: 0 auto;
+}
+.register{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }

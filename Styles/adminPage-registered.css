@@ -31,10 +31,11 @@ body {
 }
 
 .button-section {
-  position: fixed;
+  position: center;
   left: 200px;
   height: 80px;
   width: 60%;
+ padding-bottom: 20px;
 }
 
 .button-section button {
@@ -46,7 +47,8 @@ body {
   border-style: none;
   background-color: #656565;
   color: white;
-  margin-right: -2px;
+  margin-right: 2px;
+
 }
 .create-butt{
   border-style: none;
@@ -180,10 +182,10 @@ body {
   background-color: #3c93c9;
   margin: 10px;
   border: 1px solid #ccc;
-
   margin: 20px;
   border: 1px solid black;
   border-radius: 20px;
+  padding-left:15px;
 }
 
 .about {
@@ -193,4 +195,9 @@ body {
   align-items: center;
   position: relative;
   top: 20px;
+}
+.about button{
+  padding:5px;
+  margin: 3px;;
+  border-radius: 10px;
 }
