@@ -6,10 +6,12 @@ let mainHTML = "";
 
 Events.forEach((eventTile) => {
   let html = `<div data-eventname="${eventTile.name}" class="event">
+
                 <div class="tile">
-                    ${eventTile.name}
+                    <img src="">
                 </div>
-                <div class="about">Hello!</div>
+                  
+                <div class="about">${eventTile.name}</div>
               </div>`;
 
   mainHTML += html;
@@ -22,7 +24,7 @@ document.querySelectorAll(".event").forEach((event) => {
     //eventName = event.dataset.eventname;
     save(event.dataset.eventname);
     console.log(event.dataset.eventname);
-    window.open("./userEventPage.html");
+    window.open("./UserEventPage.html");
     //window.location.href = "UserEventPage.html";
   });
 });

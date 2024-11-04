@@ -3,7 +3,7 @@ export let Events = JSON.parse(localStorage.getItem("Events"));
 if (!Events) {
   Events = [
     {
-      Image:"https://th.bing.com/th/id/OIP.wUumIiA4DCJzvztsHVbjZQHaFE?rs=1&pid=ImgDetMain",
+      Image:"Images/chess.jpg",
       name: "Chess",
       date: "2024-12-13",
       eventId: "1a",
